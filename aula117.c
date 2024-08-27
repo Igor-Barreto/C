@@ -10,7 +10,7 @@ int main(){
     for(i = 0; i < 100; i++){
         vetor[i] = rand() % 1000;
     }
-    printf("\nAntes da ordenacao:\n");
+    printf("\nAntes da ordenação:\n");
     for(i = 0; i <100; i++){
         printf("%3d ", vetor[i]);
     }
